@@ -3,6 +3,10 @@
     background-color: rgb(205, 220, 181);
     color: green;
 }
+.alert.--danger{
+    color: red;
+    background-color: rgb(255, 222, 222);
+}
 .contents{
     width: 800px;
     margin: 50px auto 0;

@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [TodoContoroller::class, 'index']);
+Route::post('/todos', [TodoContoroller::class, 'store']);
